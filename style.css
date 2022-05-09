@@ -1,0 +1,454 @@
+.mainWrap {
+  background: #1b1b1b;
+  padding-bottom: 50px;
+}
+h2.headerTitle {
+  font-weight: bold !important;
+  letter-spacing: -1px;
+  padding: 30px 0px 20px 0px;
+  font-size: 40px;
+  color: #e67f10;
+  text-align: center;
+}
+
+.leftText {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 40%;
+  top: 30%;
+  transform: translateY(-50%);
+}
+
+.mainWrap2 {
+  position: relative;
+}
+
+.leftText h3 {
+  margin: 0 0 1.25rem;
+  color: #2e96db;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 104%;
+}
+
+.leftText p {
+  margin: 0 0 1.5rem;
+  color: #ddd;
+  font-size: 17px;
+  margin-bottom: 0;
+}
+
+.bubble {
+  margin: 0;
+  padding: 1rem;
+  width: 228px;
+  width: 30%;
+  box-sizing: border-box;
+  position: absolute;
+  right: 0;
+  top: 25%;
+  transform: translateY(-50%);
+  transform: none;
+  background-color: #e67f10;
+  border: solid 3px #ac5900;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  box-shadow: 4px 5px 0 rgb(0 0 0 / 15%);
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 110%;
+  z-index: 0;
+}
+
+.svgWrap {
+  width: 70%;
+  position: relative;
+  left: 15%;
+  z-index: 1;
+}
+
+.svgWrap svg {
+  width: 100%;
+  height: 100%;
+}
+
+.bubble .triangle {
+  position: absolute;
+  left: -29px;
+  top: -3px;
+}
+
+.sliders {
+  background: #c1966b;
+  width: 70%;
+  position: relative;
+  left: 15%;
+  bottom: 0;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 14px 18px;
+}
+
+.sliders .sliderWrap {
+  width: 100%;
+  margin-bottom: 30px;
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+
+.sliders h4 {
+  color: #1b1b1b;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: -0.0625rem;
+  line-height: 104%;
+  margin-bottom: 16px;
+}
+
+.sliders .sliderWrap span {
+  display: inline-block;
+  width: auto;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  background-color: #1b1b1b;
+  border-radius: 8px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  position: relative;
+  left: 0px;
+  padding: 2px 12px;
+  height: 30px;
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+
+.sliders .sliderWrap input {
+  -webkit-appearance: none;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+  width: 100%;
+  height: 30px;
+  display: block;
+  box-sizing: border-box;
+  background: #fff;
+  outline: none;
+  box-shadow: inset 0 4px 8px 0 rgb(0 0 0 / 25%);
+  flex: 1;
+}
+
+.sliders .sliderWrap span:last-child {
+  border-radius: 8px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  left: auto;
+  right: 0;
+}
+
+.sliders .sliderWrap input::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  z-index: 50;
+  background-color: #e67f10;
+  border-radius: 50%;
+  border: solid 3px #ac5900;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 25%);
+}
+
+.sliders .sliderWrap input::-moz-range-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  background: #04aa6d;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  box-sizing: border-box;
+  z-index: 50;
+  background-color: #e67f10;
+  border-radius: 50%;
+  border: solid 3px #ac5900;
+  box-shadow: 0 2px 0 rgb(0 0 0 / 25%);
+}
+
+.bubble a {
+  color: #1b1b1b;
+  font-weight: bold;
+}
+
+.rangeWrap {
+  width: 100%;
+  position: relative;
+}
+
+.rangeWrap .outputNumbers {
+  position: absolute;
+  bottom: 49px;
+  left: calc(0% + 22.5px);
+  z-index: 100000;
+  width: 0;
+  padding: 0;
+  display: flex;
+  place-content: center;
+  align-items: center;
+}
+
+.rangeWrap .outputNumbers:after {
+  content: "";
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #fff;
+}
+
+.rangeWrap .outputNumbers label {
+  padding: 4px 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #e67f10;
+  font-size: 14px;
+  text-align: center;
+  z-index: 100000;
+  font-weight: 700;
+}
+
+.bubble h3 {
+  margin-bottom: 12px;
+  font-size: 33px;
+}
+
+
+
+/* Responsive Css Start*/
+
+@media screen and (max-width: 992px) {
+    .leftText h3 {
+        font-size: 37px;
+    }
+    .leftText {
+        top: 27%;
+    }
+    .sliders{
+        width: 65%;
+    }
+    .svgWrap{
+        width: 65%;
+    }
+    .bubble {
+       
+        top: 5%;
+    }
+    .leftText p {
+        font-size: 16px;
+    }  
+    
+}
+
+ @media screen and (max-width: 768px) {
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+    .sliders {
+      width: 100%;
+      left: 0;
+      bottom: -362px;
+      padding: 10px 14px;
+    }
+  
+    .svgWrap {
+      width: 100%;
+      left: 0;
+      bottom: -362px;
+    }
+  
+    .leftText {
+      width: 100%;
+      padding: 0.8rem;
+      top: 19%;
+    }
+    .leftText p {
+        font-size: 1.3rem;
+    }
+    .bubble {
+      padding: 1rem;
+      width: 100%;
+      top: 40%;
+    }
+    h2.headerTitle {
+      padding: 0;
+      margin-bottom: 0;
+    }
+  
+    .bubble .triangle {
+      display: none;
+    }
+  
+    .mainWrap {
+      height: 100vh;
+    }
+  
+    .col-md-12 {
+      padding: 0;
+    }
+  
+    .bubble h3 {
+      font-size: 2rem;
+    }
+} 
+
+@media screen and (max-width: 576px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .sliders {
+    width: 100%;
+    left: 0;
+    bottom: -430px;
+    padding: 10px 14px;
+  }
+
+  .svgWrap {
+    width: 100%;
+    left: 0;
+    bottom: -430px;
+  }
+
+  .leftText {
+    width: 100%;
+    padding: 0.8rem;
+    top: 30%;
+
+  }
+  .leftText p {
+    font-size: 1rem;
+  }
+  .bubble {
+    padding: 1rem;
+    width: 100%;
+    top: 59%;
+  }
+  h2.headerTitle {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 0;
+  }
+
+  .bubble .triangle {
+    display: none;
+  }
+
+  .mainWrap {
+    height: 100vh;
+  }
+
+  .col-md-12 {
+    padding: 0;
+  }
+
+  .bubble h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 400px) {
+    .sliders h4 {
+        font-size: 1rem;
+        margin-left: 2.5rem;
+      }
+}
+@media screen and (max-width: 320px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .leftText h3 {
+    font-size: 2rem;
+  }
+
+  .sliders {
+    width: 100%;
+    left: 0;
+    bottom: -430px;
+    padding: 10px 14px;
+  }
+
+  .svgWrap {
+    width: 100%;
+    left: 0;
+    bottom: -430px;
+  }
+
+  .leftText {
+    padding-top: 2rem;
+  }
+
+  .bubble {
+    padding: 1rem;
+    width: 100%;
+    top: 68%;
+  }
+  h2.headerTitle {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 0;
+  }
+
+  .bubble .triangle {
+    display: none;
+  }
+
+  .mainWrap {
+    height: 100vh;
+  }
+
+  .col-md-12 {
+    padding: 0;
+  }
+
+  .bubble h3 {
+    font-size: 1.5rem;
+  }
+  .sliders h4 {
+    font-size: rem;
+    margin-left: 2.5rem;
+  }
+  .rangeWrap .outputNumbers label {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}
