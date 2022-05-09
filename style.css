@@ -242,7 +242,6 @@ h2.headerTitle {
 
 
 /* Responsive Css Start*/
-
 @media screen and (max-width: 992px) {
     .leftText h3 {
         font-size: 37px;
@@ -268,6 +267,143 @@ h2.headerTitle {
 
  @media screen and (max-width: 768px) {
     html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .sliders {
+    width: 96%;
+    left: 0;
+    bottom: -225px;
+    padding: 10px 14px;
+    margin: 0 10px;
+  }
+
+  .svgWrap {
+    width: 96%;
+    left: 0;
+    bottom: -225px;
+    margin: 0 10px;
+  }
+
+  .leftText {
+    width: 100%;
+    padding: 0.8rem;
+    top: 20%;
+
+  }
+  .leftText p {
+    font-size: 1rem;
+  }
+  .bubble {
+    padding: 1rem;
+    width: 96%;
+    top: 145%;
+    margin: 10px;
+  }
+  h2.headerTitle {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 0;
+  }
+
+  .bubble .triangle {
+    display: none;
+  }
+
+  .mainWrap {
+    height: 100vh;
+  }
+
+  .col-md-12 {
+    padding: 0;
+  }
+
+  .bubble h3 {
+    font-size: 2rem;
+  }
+} 
+
+@media screen and (max-width: 576px) {
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .sliders {
+    width: 96%;
+    left: 0;
+    bottom: -260px;
+    padding: 10px 14px;
+    margin: 0 10px;
+  }
+
+  .svgWrap {
+    width: 96%;
+    left: 0;
+    bottom: -260px;
+    margin: 0 10px;
+  }
+
+  .leftText {
+    width: 100%;
+    padding: 0.8rem;
+    top: 20%;
+
+  }
+  .leftText p {
+    font-size: 1rem;
+  }
+  .bubble {
+    padding: 1rem;
+    width: 96%;
+    top: 154%;
+    margin: 10px;
+  }
+  h2.headerTitle {
+    padding: 0px 0px 0px 0px;
+    margin-bottom: 0;
+  }
+
+  .bubble .triangle {
+    display: none;
+  }
+
+  .mainWrap {
+    height: 100vh;
+  }
+
+  .col-md-12 {
+    padding: 0;
+  }
+
+  .bubble h3 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+    .sliders h4 {
+        font-size: 1rem;
+        margin-left: 2.5rem;
+      }
+      .leftText {
+        top: 30%;
+      }
+      .bubble {
+        top: 165%;
+        right: -5px;
+      }
+    
+}
+@media screen and (max-width: 320px) {
+    html,
     body {
       width: 100%;
       height: 100%;
@@ -275,34 +411,42 @@ h2.headerTitle {
       padding: 0;
       overflow-x: hidden;
     }
+  
     .sliders {
-      width: 100%;
+      width: 96%;
       left: 0;
-      bottom: -362px;
+      bottom: -227px;
       padding: 10px 14px;
+      margin: 0 10px;
     }
   
     .svgWrap {
-      width: 100%;
+      width: 96%;
       left: 0;
-      bottom: -362px;
+      bottom: -227px;
+      margin: 0 10px;
     }
   
     .leftText {
       width: 100%;
       padding: 0.8rem;
-      top: 19%;
+      top: 34%;
+  
     }
     .leftText p {
-        font-size: 1.3rem;
+      font-size: 1rem;
+    }
+    .leftText h3 {
+        font-size: 24px;
     }
     .bubble {
       padding: 1rem;
-      width: 100%;
-      top: 40%;
+      width: 96%;
+      top: 168%;
+      margin: 10px;
     }
     h2.headerTitle {
-      padding: 0;
+      padding: 0px 0px 0px 0px;
       margin-bottom: 0;
     }
   
@@ -319,136 +463,6 @@ h2.headerTitle {
     }
   
     .bubble h3 {
-      font-size: 2rem;
+      font-size: 1.5rem;
     }
-} 
-
-@media screen and (max-width: 576px) {
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
-
-  .sliders {
-    width: 100%;
-    left: 0;
-    bottom: -430px;
-    padding: 10px 14px;
-  }
-
-  .svgWrap {
-    width: 100%;
-    left: 0;
-    bottom: -430px;
-  }
-
-  .leftText {
-    width: 100%;
-    padding: 0.8rem;
-    top: 30%;
-
-  }
-  .leftText p {
-    font-size: 1rem;
-  }
-  .bubble {
-    padding: 1rem;
-    width: 100%;
-    top: 59%;
-  }
-  h2.headerTitle {
-    padding: 0px 0px 0px 0px;
-    margin-bottom: 0;
-  }
-
-  .bubble .triangle {
-    display: none;
-  }
-
-  .mainWrap {
-    height: 100vh;
-  }
-
-  .col-md-12 {
-    padding: 0;
-  }
-
-  .bubble h3 {
-    font-size: 2rem;
-  }
-}
-@media screen and (max-width: 400px) {
-    .sliders h4 {
-        font-size: 1rem;
-        margin-left: 2.5rem;
-      }
-}
-@media screen and (max-width: 320px) {
-  html,
-  body {
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-  }
-
-  .leftText h3 {
-    font-size: 2rem;
-  }
-
-  .sliders {
-    width: 100%;
-    left: 0;
-    bottom: -430px;
-    padding: 10px 14px;
-  }
-
-  .svgWrap {
-    width: 100%;
-    left: 0;
-    bottom: -430px;
-  }
-
-  .leftText {
-    padding-top: 2rem;
-  }
-
-  .bubble {
-    padding: 1rem;
-    width: 100%;
-    top: 68%;
-  }
-  h2.headerTitle {
-    padding: 0px 0px 0px 0px;
-    margin-bottom: 0;
-  }
-
-  .bubble .triangle {
-    display: none;
-  }
-
-  .mainWrap {
-    height: 100vh;
-  }
-
-  .col-md-12 {
-    padding: 0;
-  }
-
-  .bubble h3 {
-    font-size: 1.5rem;
-  }
-  .sliders h4 {
-    font-size: rem;
-    margin-left: 2.5rem;
-  }
-  .rangeWrap .outputNumbers label {
-    padding: 4px 8px;
-    font-size: 12px;
-  }
 }
